@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".firstfragment"
+    android:orientation="vertical">
+
+   <EditText
+        android:id="@+id/tk"
+        android:layout_width="match_parent"
+        android:hint="tai khoan"
+        android:textSize="25dp"
+        android:layout_height="50dp"></EditText>
+
+    <EditText
+        android:id="@+id/mk"
+        android:layout_width="match_parent"
+        android:hint="mat khau"
+        android:textSize="25dp"
+        android:password="true"
+        android:layout_height="50dp"></EditText>
+
+    <Button
+        android:id="@+id/chuyen"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Xong"></Button>
+
+
+</LinearLayout>
