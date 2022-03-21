@@ -15,9 +15,9 @@ public class RecylAdapter extends RecyclerView.Adapter<RecylAdapter.ViewHolder> 
     Context context;
     List<String> list;
 
-    public RecylAdapter(Context context, List<String> list) {
-        this.context = context;
+    public RecylAdapter(Context context,List<String> list) {
         this.list = list;
+        this.context=context;
     }
 
     @NonNull
